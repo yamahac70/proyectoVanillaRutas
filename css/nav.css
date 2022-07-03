@@ -1,0 +1,26 @@
+@import url("colores.css");
+@import url("inicial.css");
+.header {
+  width: 100%;
+  height: 15vh;
+  background-color: var(--primario);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header nav {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+.header nav .itemNav a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  transition: background-color 0.5s;
+}
+.header nav .itemNav a:hover {
+  background-color: var(--secundario);
+}
